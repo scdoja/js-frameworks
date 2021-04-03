@@ -1,0 +1,43 @@
+article{
+	height: 250px;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #82c1ff;
+	border-radius: 8px;
+	background-color: rgb(130, 193, 255, 0.15);
+}
+
+h1{
+	margin: 6px;
+}
+
+p{
+	margin: 8px;
+}
+
+#suit{
+	margin:6px;
+	opacity: 0.5;
+	transition: all 0.4s ease;
+	-webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1, 1);
+}
+
+#suit:hover{
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+a{
+	color:#82c1ff;
+	margin: 8px;
+	opacity: 0.5;
+	transition: all 0.4s ease;
+}
+
+a:hover{
+	opacity: 1;
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+$font-stack: Abel, sans-serif;
+$primary-color: #000000;
+$secondary-color: #ffffff;
+
+$main-font-color: #82c1ff;
+$secondary-font-color: #aa0505;
+
+html,body{
+	font: 100% $font-stack;
+	color: $main-font-color;
+	background-color: $primary-color;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#app{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	h1{
+		color: $secondary-font-color;
+	}
+
+	.info{
+		margin-top: 12px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+
+		p{
+			font-size: 18px;
+		}
+	}
+
+	.suits{
+		margin: 16px;
+	}
+
+	input[type=text] {
+  		width: 70%;
+  		padding: 12px 20px;
+  		margin: 12px 0;
+		color: $main-font-color;
+		font-size: 12px;
+		border: 2px solid $main-font-color;
+		border-radius: 8px;
+		background-color: $primary-color;
+	}
+
+	input[type=text]:focus {
+  		width: 70%;
+  		padding: 12px 20px;
+  		margin: 12px 0;
+		outline: none;
+	}
+
+	::placeholder{
+		color: $main-font-color;
+	}
+
+}
